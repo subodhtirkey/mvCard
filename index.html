@@ -1,0 +1,94 @@
+<!doctype html>
+<html>
+<head>
+<link rel="stylesheet" href="http://code.jquery.com/mobile/1.0a2/jquery.mobile-1.0a2.min.css" />
+<script src="http://code.jquery.com/jquery-1.4.4.min.js"></script>
+<script src="http://code.jquery.com/mobile/1.0a2/jquery.mobile-1.0a2.min.js"></script>
+</head>
+<body>
+	<!--------------------Home Page---------------------->
+	<div id="homepage" data-role="page" data-theme="a">
+
+		<div data-role="header">
+			<h1>mvCard</h1>
+		</div>
+		<div data-role="content">
+        <div style="width: 288px; height: 200px; position: relative; background-color: #fbfbfb; border: 1px solid #b8b8b8;">
+            <img src="http://codiqa.com/static/images/v2/image.png" alt="image" style="position: absolute; top: 50%; left: 50%; margin-left: -16px; margin-top: -18px">
+        </div>
+        <div class="ui-grid-a">
+            <div class="ui-block-a">
+                <a data-role="button" href="#login">
+                    Login
+                </a>
+            </div>
+            <div class="ui-block-b">
+                <a data-role="button" href="register">
+                    Register
+                </a>
+            </div>
+        </div>
+    	</div>
+	</div>
+
+	<!--------------------login Page---------------------->
+
+	<div id="login" data-role="page" data-theme="a">
+		<div data-role="header">
+			<h2>Login</h2>
+		</div>
+
+		<div data-role="content">
+        <form action="">
+            <div data-role="fieldcontain">
+                <label for="email">
+                    Email
+                </label>
+                <input name="email" id="email" placeholder="" value="" type="text">
+            </div>
+            <div data-role="fieldcontain">
+                <label for="password">
+                    Password
+                </label>
+                <input name="password" id="password" placeholder="" value="" type="text">
+            </div>
+            <input type="submit" value="Submit">
+        </form>
+    </div>
+	</div>
+
+
+	<!--------------------Register Page---------------------->
+
+	<div id="register" data-role="page" data-theme="a">
+		<div data-role="header">
+			<h2>Register</h2>
+		</div>
+
+		<div data-role="content">
+        <form action="">
+        	<div data-role="fieldcontain">
+                <label for="username">
+                    Username
+                </label>
+                <input name="username" id="username" placeholder="" value="" type="text">
+            </div>
+            <div data-role="fieldcontain">
+                <label for="emailad">
+                    Email
+                </label>
+                <input name="emailad" id="emailad" placeholder="" value="" type="text">
+            </div>
+            <div data-role="fieldcontain">
+                <label for="pass">
+                    Password
+                </label>
+                <input name="pass" id="pass" placeholder="" value="" type="text">
+            </div>
+            <input type="submit" value="Submit">
+        </form>
+    </div>
+	</div>
+
+</body>
+</html>
